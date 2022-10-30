@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   resources :savermarts, path: 'savermarts' do
     collection { 
+      get :index , via: :options
       post :create , via: :options  
       delete :destroy , via: :options
     }
