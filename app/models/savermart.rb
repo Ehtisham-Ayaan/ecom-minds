@@ -1,0 +1,2 @@
+class Savermart < ApplicationRecord
+end
