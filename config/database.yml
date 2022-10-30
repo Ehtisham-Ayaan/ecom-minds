@@ -12,11 +12,13 @@
 default: &default
   adapter: mysql2
   encoding: utf8mb4
-  database: heroku_c25eaf126165559
+  database: g6megt2rshvasutl
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  username: b0fecb7c6482fc
-  password: 17381e8e
-  host: us-cdbr-east-06.cleardb.net
+  username: rkbfya0gesz52eyq
+  password: aml0bvtl9ses60l2
+  host: h1use0ulyws4lqr1.cbetxkdyhwsb.us-east-1.rds.amazonaws.com
+  port: 3306
+
   socket: /var/run/mysqld/mysqld.sock
 
 development:
