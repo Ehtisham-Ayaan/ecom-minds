@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/rails/actionpack-action_caching.git
+  revision: 05c821ec84eb79760e95b0a57ae72919eefb0257
+  branch: master
+  specs:
+    actionpack-action_caching (1.2.2)
+      actionpack (>= 4.0.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -224,6 +232,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  actionpack-action_caching!
   bootsnap (>= 1.4.4)
   byebug
   capybara (>= 3.26)

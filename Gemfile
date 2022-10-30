@@ -59,3 +59,5 @@ gem 'rack-cors'
 gem 'net-smtp', require: false
 gem 'net-imap', require: false
 gem 'net-pop', require: false
+
+gem 'actionpack-action_caching', github: 'rails/actionpack-action_caching', branch: 'master'
