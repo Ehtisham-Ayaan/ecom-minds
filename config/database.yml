@@ -53,5 +53,3 @@ test:
 production:
   <<: *default
   database: ebay_listing_backend_production
-  username: ebay_listing_backend
-  password: <%= ENV['EBAY_LISTING_BACKEND_DATABASE_PASSWORD'] %>
