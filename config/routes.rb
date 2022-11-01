@@ -3,6 +3,7 @@ Rails.application.routes.draw do
     collection { 
       get :index , via: :options
       post :create , via: :options  
+      put :update , via: :options 
       delete :destroy , via: :options
     }
   end
