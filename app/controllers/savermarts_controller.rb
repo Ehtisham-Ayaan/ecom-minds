@@ -75,7 +75,7 @@ class SavermartsController < ApplicationController
         :back_camera,
         :release_date,
         :sim_support,
-        :phone_dimensions,
+        :phone_dimension,
         :phone_weight,
         :operating_system,
         :processor,
